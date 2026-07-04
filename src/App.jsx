@@ -87,7 +87,7 @@ function App() {
                 No need to install heavy software on your device.
                 Just open your browser and start editing.
               </p>
-          </div>
+           </div>
 
           <div>
             <h2 className="text-2xl font-bold leading-5">
@@ -113,9 +113,62 @@ function App() {
 
       {/*Hero section-2 start*/}
       <div className='bg-[#120b14] text-white min-h-screen'>
+        <section className='max-w-6xl mx-auto flex  gap-20 items-center py-30 pb-20'>
+          {/*Left*/}
+          <div className='space-y-10'>
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Professional Editor</h2>
 
+              <p className="text-gray-400 text-lg mt-2 leading-6">
+                Photopea offers a full suite of editing tools, from basic features like cropping
+                and resizing to advanced features such as layering, masking, and blending.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Full PSD support</h2>
+
+              <p className="text-gray-400 text-lg mt-2 leading-6">
+                Photopea fully supports a popular PSD format, both opening and saving files. 
+                It is the main format of Photopea.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Swiss knife for graphics</h2>
+
+              <p className="text-gray-400 text-lg mt-2 leading-6">
+                Open and edit PNG, JPG, GIF, BMP, WEBP, SVG, PDF, AI, AVIF, DDS, HEIC, TIFF,
+                MP4, TGA, CDR, PDN, EPS, INDD, Figma and 40 other formats.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Perfect RAW support</h2>
+
+              <p className="text-gray-400 text-lg mt-2 leading-6">
+                Photopea opens DNG, CR2, CR3, NEF, ARW, RW2, RAF, ORF and FFF files. Set 
+                the Exposure, Color Balance, Contrast, Highlights and Shadows, etc.
+              </p>
+            </div>
+
+            <button className="border border-blue-500 ml-[150px] rounded-full px-10 py-3 text-xl">
+              Start using Photopea
+            </button>
+          </div>
+
+          {/*Right*/}
+          <div>
+            <img src="https://www.photopea.com/img/hand_phone.webp" alt="picture-2" className='w-140 h-120 shadow-2xl'/>
+          </div>
+
+        </section>
       </div>
       {/*Hero section-2 end*/}
+
+
+      {/*Hero section-3 strat*/}
+      {/*Hero section-3 end*/}
     </>
   )
 }

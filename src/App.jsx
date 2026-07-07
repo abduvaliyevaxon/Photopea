@@ -175,15 +175,28 @@ function App() {
           {/*Right*/}
           <div className='space-y-10'>
             <div>
-              <h2>State-of-the-art AI</h2>
-              <p>Remove background with one click, or replace any part of an image with a new content through a text description.</p>
+              <h2 className="text-2xl font-bold leading-5">State-of-the-art AI</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">Remove background with one click, or replace any part of an image with a new content through a text description.</p>
             </div>
 
             <div>
-              <h2>All Essential Features</h2>
-              <p>We have Layers, Masks, Layer Styles, Smart Objects, Adjustment Layers, Channels, Paths and more!</p>
+              <h2 className="text-2xl font-bold leading-5">All Essential Features</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">We have Layers, Masks, Layer Styles, Smart Objects, Adjustment Layers, Channels, Paths and more!</p>
             </div>
 
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Adjustments and Filters</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">Do you need Levels and Curves? A Gaussian Blur? Or advanced stuff such as Liquify or Puppet Warp? We have it all!</p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Vector Graphics</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">Create and edit vector graphics directly within the editor. Perfect for designers working on logos, icons, or illustrations</p>
+            </div>
+
+            <button className="border border-blue-500 ml-[150px] rounded-full px-10 py-3 text-xl">
+              Start using Photopea
+            </button>
           </div>
 
         </section>

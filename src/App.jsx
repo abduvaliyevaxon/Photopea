@@ -167,6 +167,27 @@ function App() {
 
 
       {/*Hero section-3 strat*/}
+      <div className='bg-[#120b14] text-white min-h-screen'>
+        <section className='max-w-6xl mx-auto flex  gap-20 items-center  pb-20'>
+          {/*Left*/}
+          <video src="https://www.photopea.com/img/goats.mp4"  loop  className='w-130 h-130'></video>
+
+          {/*Right*/}
+          <div className='space-y-10'>
+            <div>
+              <h2>State-of-the-art AI</h2>
+              <p>Remove background with one click, or replace any part of an image with a new content through a text description.</p>
+            </div>
+
+            <div>
+              <h2>All Essential Features</h2>
+              <p>We have Layers, Masks, Layer Styles, Smart Objects, Adjustment Layers, Channels, Paths and more!</p>
+            </div>
+
+          </div>
+
+        </section>
+      </div>
       {/*Hero section-3 end*/}
     </>
   )

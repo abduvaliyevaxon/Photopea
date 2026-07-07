@@ -168,7 +168,7 @@ function App() {
 
       {/*Hero section-3 strat*/}
       <div className='bg-[#120b14] text-white min-h-screen'>
-        <section className='max-w-6xl mx-auto flex  gap-20 items-center  pb-20'>
+        <section className='max-w-6xl mx-auto flex  gap-20 items-center'>
           {/*Left*/}
           <video src="https://www.photopea.com/img/goats.mp4"  loop  className='w-130 h-130'></video>
 
@@ -202,6 +202,46 @@ function App() {
         </section>
       </div>
       {/*Hero section-3 end*/}
+
+      <div className='text-3xl items-center text-center font-semibold bg-[#120b14] text-white pb-20 mt-[-95px]'>Who Can Benefit from our Free Photo Editor?</div>
+
+      {/*Hero section-4 start*/}
+      <div className='bg-[#120b14] text-white min-h-screen'>
+        <section className='max-w-6xl mx-auto flex  gap-20 items-center  pb-20'>
+
+          {/*Right*/}
+          <div className='space-y-10'>
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Social Media Enthusiasts</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">Enhance your photos before sharing them on platforms like Instagram, Facebook, or Twitter. Make every post stand out with unique edits.</p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Students and Educators</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">Create stunning visuals for presentations, assignments, and more. Our free online photo editor is a great tool for educational projects.</p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Small Business Owners</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">Design promotional materials, edit product photos, and create engaging content for your website or online store, all without spending on expensive software.</p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold leading-5">Graphic Designers</h2>
+              <p className="text-gray-400 text-lg mt-2 leading-6">Whether you’re a freelancer or part of a design team, Photopea’s free photo editor offers all the features you need to produce professional-quality work.</p>
+            </div>
+
+            <button className="border border-blue-500 ml-[150px] rounded-full px-10 py-3 text-xl">
+              Start using Photopea
+            </button>
+          </div>
+
+          {/*Left*/}
+          <img src="https://www.photopea.com/img/laptop.webp" alt="picture-4" className='w-140 h-120 shadow-2xl'/>
+
+        </section>
+      </div>
+      {/*Hero section-4 end*/}
     </>
   )
 }
